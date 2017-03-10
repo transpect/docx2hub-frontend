@@ -1,0 +1,15 @@
+[submodule "calabash"]
+	path = calabash
+	url = https://github.com/transpect/calabash-frontend.git
+[submodule "docx2hub"]
+	path = docx2hub
+	url = https://github.com/transpect/docx2hub.git
+[submodule "xproc-util"]
+	path = xproc-util
+	url = https://github.com/transpect/xproc-util.git
+[submodule "xslt-util"]
+	path = xslt-util
+	url = https://github.com/transpect/xslt-util.git
+[submodule "htmlreports"]
+	path = htmlreports
+	url = https://github.com/transpect/htmlreports.git
