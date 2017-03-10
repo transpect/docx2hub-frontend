@@ -120,7 +120,6 @@ HEAP=$HEAP $CALABASH \
 
 # delete temp files
 if [ "$DEBUG" != "yes" ]; then
-    rm $FILE
     rm -rf $FILE.tmp $DEBUG_DIR
 fi
 
