@@ -57,7 +57,7 @@ For convenient use on command line, we provide a simple Bash script. You can run
 
 ### Calabash
 
-We provide also Bash and Windows Batch scripts to invoke the XProc pipeline:
+We provide also Bash and Windows Batch scripts to invoke the XProc pipeline directly:
 
 ```
 ./calabash.sh -o result=sample/hello-word.xml xpl/docx2hub-frontend.xpl docx=sample/hello-word.docx
