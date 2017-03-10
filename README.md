@@ -73,5 +73,5 @@ Please refer to this [tutorial](http://transpect.github.io/getting-started.html)
 Currently docx files from the following applications are supported:
 
 * Microsoft Word
-* OpenOffice
+* LibreOffice
 * Google Docs
