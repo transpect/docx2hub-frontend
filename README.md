@@ -3,7 +3,7 @@ Implements the [docx2hub](https://github.com/transpect/docx2hub) library to conv
 
 ## Introduction
 
-Considering this [hello word example](https://github.com/transpect/docx2hub-frontend/tree/master/sample), docx2hub will generate flat [Hub XML with CSSa XML attributes](publishinggeekly.com/wp-content/uploads/2013/01/CSSa.pdf). 
+Considering this [hello word example](https://github.com/transpect/docx2hub-frontend/tree/master/sample), docx2hub will generate flat [Hub XML with CSSa XML attributes](http://publishinggeekly.com/wp-content/uploads/2013/01/CSSa.pdf). 
 
 ```xml
 <hub xmlns="http://docbook.org/ns/docbook" 
