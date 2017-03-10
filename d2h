@@ -117,6 +117,13 @@ HEAP=$HEAP $CALABASH \
     debug-dir-uri=$DEBUG_DIR_URI \
     status-dir-uri=$DEBUG_DIR_URI/status 2>&1 2>>$LOG || exitonerror $? xproc
 
+
+# delete temp files
+if [ "$DEBUG" != "yes" ]; then
+    rm $FILE
+    rm -rf $FILE.tmp $DEBUG_DIR
+fi
+
 echo "writing xml => $OUT_DIR/$BASENAME.xml"
 
 echo "docx2hub finished, for details see $LOG"
