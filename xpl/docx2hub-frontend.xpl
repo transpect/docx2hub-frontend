@@ -6,6 +6,10 @@
   name="docx2hub-frontend"
   type="docx2hub:frontend">
   
+  <p:documentation>
+    An XProc pipeline which implements the docx2hub library.
+  </p:documentation>
+  
   <p:output port="result">
     <p:pipe port="result" step="docx2hub"/>
   </p:output>
