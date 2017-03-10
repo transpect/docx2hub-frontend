@@ -60,7 +60,7 @@ For convenient use on command line, we provide a simple Bash script. You can run
 We provide also Bash and Windows Batch scripts to invoke the XProc pipeline:
 
 ```
-calabash.sh -o result=sample/hello-word.xml xpl/docx2hub-frontend.xpl docx=sample/hello-word.docx
+./calabash.sh -o result=sample/hello-word.xml xpl/docx2hub-frontend.xpl docx=sample/hello-word.docx
 ```
 
 ## Include docx2hub in your XProc project
