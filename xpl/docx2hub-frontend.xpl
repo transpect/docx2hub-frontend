@@ -10,8 +10,16 @@
     An XProc pipeline which implements the docx2hub library.
   </p:documentation>
   
-  <p:output port="result">
+  <p:output port="result" primary="true">
     <p:pipe port="result" step="docx2hub"/>
+  </p:output>
+
+  <p:output port="report" primary="false" sequence="true">
+    <p:pipe port="report" step="docx2hub"/>
+  </p:output>
+
+  <p:output port="zip-manifest" primary="false">
+    <p:pipe port="zip-manifest" step="docx2hub"/>
   </p:output>
   
   <p:option name="docx" required="true"/>
