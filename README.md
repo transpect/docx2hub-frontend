@@ -43,7 +43,6 @@ This project depends on Git submodules. Therefore you have to clone it with the 
 
 ```
 git clone https://github.com/transpect/docx2hub-frontend --recursive
-cd docx2hub-frontend
 ```
 
 ## Invocation
