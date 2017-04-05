@@ -52,7 +52,7 @@ cd docx2hub-frontend
 
 For convenient use on command line, we provide a simple Bash script. You can run it in this way:
 ```
-`./d2h sample/hello-word.docx
+`./docx2hub.sh sample/hello-word.docx
 ```
 
 ### Calabash
