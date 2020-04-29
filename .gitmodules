@@ -13,3 +13,6 @@
 [submodule "htmlreports"]
 	path = htmlreports
 	url = https://github.com/transpect/htmlreports.git
+[submodule "fontmaps"]
+	path = fontmaps
+	url = https://github.com/transpect/fontmaps
