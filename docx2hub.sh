@@ -111,6 +111,8 @@ fi
 # docx2hub xproc pipeline
 HEAP=$HEAP $CALABASH \
     -o result=$OUT_DIR/$BASENAME.xml \
+    -o report=$OUT_DIR/$BASENAME.report.svrl \
+    -o zip-manifest=$OUT_DIR/$BASENAME.manifest.xml \
     $DIR/xpl/docx2hub-frontend.xpl \
     docx=$FILE \
     debug=$DEBUG \
